@@ -101,7 +101,7 @@ Pages are prioritized by opportunity score (CTR gap × impressions), so fixing t
 
 A secondary pattern worth flagging within this list: rows 9, 18, 26, and 28 sit far outside the position-4-to-10 range that dominates the rest of the table (positions 14–18), yet still make the top 30 because a large impression volume amplifies even a small CTR gap. These four are lower-priority than their raw rank suggests, since a page ranking at position 15+ is inherently less likely to be clicked regardless of any fixable issue — they are included here for completeness but should be reviewed after the position-4-to-10 pages above them.
 
-Full 30-row detail, including impressions, clicks, and content metadata for each page, is available in `top30_opportunities.csv` in the repository.
+Full impressions, clicks, and content metadata for each of the 30 pages above were pulled directly from the warehouse release using the notebooks in `work/` and are not separately republished as a raw export, consistent with this project's public-data rule.
 
 ## Reproducibility
 
